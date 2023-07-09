@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/friday/MailKit/MailMvc/MailMvc.csproj": {}
+  },
+  "projects": {
+    "/home/friday/MailKit/MailMvc/MailMvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/friday/MailKit/MailMvc/MailMvc.csproj",
+        "projectName": "MailMvc",
+        "projectPath": "/home/friday/MailKit/MailMvc/MailMvc.csproj",
+        "packagesPath": "/home/friday/.nuget/packages/",
+        "outputPath": "/home/friday/MailKit/MailMvc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/friday/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.105/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
